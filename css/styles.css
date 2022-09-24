@@ -64,6 +64,10 @@ body {
   color: var(--title-color);
 }
 
+.site-nav .active {
+  color: var(--accent-color);
+}
+
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
@@ -216,6 +220,7 @@ body {
 /* Footer */
 
 .contacts-footer .link {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
